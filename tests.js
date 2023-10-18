@@ -24,5 +24,12 @@ describe('sayHello', function(){
     it('should return the string "Hello, Jane!', function() {
         expect(sayHello()).toBe("Hello, Jane!");
     });
+    it('should sayHello("Alex") return "Hello, Alex!', function (){
+        expect(sayHello("Alex")).toBe("Hello, Alex!");
+    });
+    it('should sayHello("Pat")return "Hello, Pat!)', function () {
+        expect(sayHello("Pat")).toBe("Hello, Pat!");
+        
+    });
 
 })
